@@ -3,12 +3,13 @@
 ### [Website Link](https://bookie-daily-journal.herokuapp.com/)
 ---
 ### As part of my back-end learning, I made this project. 😃 
-#### Technologies I learnt:
+#### What I've learned:
 * NodeJS
 * MongoDB
 * Mongoose
 * Searching, Sorting & filtering 
 * User-authentication 
+* EJS
 
 
 
