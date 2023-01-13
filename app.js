@@ -31,7 +31,7 @@ mongoose.connect(process.env.MongoDB_Connection_Link, {
 }).then(() => {
     console.log("Connected to the db");
 }).catch((err) => {
-    console.log(err);
+    console.log(err + " not connected to db");
 });
 
 app.get("/", auth, function(req,res){
