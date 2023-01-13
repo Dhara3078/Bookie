@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-import postRouter from "./routes/post-routes";
+import postRouter from "./routes/post-routes.mjs";
 import userRouter from "./routes/user-routes.mjs";
 import auth from "./routes/auth.mjs";
 const app = express();
