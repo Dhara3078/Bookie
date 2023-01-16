@@ -14,8 +14,8 @@ import userRouter from "./routes/user-routes.mjs";
 import auth from "./routes/auth.mjs";
 const app = express();
 
-app.set('view engine', 'ejs');
 
+app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
 app.use(express.static("public"));
@@ -36,22 +36,21 @@ mongoose.connect(process.env.MongoDB_Connection_Link, {
 
 app.get("/", auth, function(req,res){
   if(res.statusCode != 401){
-    console.log("in / route");
     res.redirect("/user/home");
   }
-   res.render(__dirname + "welcome_page");
+   res.render("welcome_page");
 });
 
 app.get("/about", function(req, res){
-  res.render(__dirname+"about", {aboutContent: aboutContent});
+  res.render("about", {aboutContent: aboutContent});
 });
 
 app.get("/contact", function(req, res){
-  res.render(__dirname+"contact", {contactContent: contactContent});
+  res.render("contact", {contactContent: contactContent});
 });
 
 app.get("/thankyou", function(req, res){
-  res.render(__dirname+"thankyou");
+  res.render("thankyou");
 });
 
 const port = process.env.PORT || 3000;
