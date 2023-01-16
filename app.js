@@ -39,19 +39,19 @@ app.get("/", auth, function(req,res){
     console.log("in / route");
     res.redirect("/user/home");
   }
-   res.render("welcome_page");
+   res.render(__dirname + "welcome_page");
 });
 
 app.get("/about", function(req, res){
-  res.render("about", {aboutContent: aboutContent});
+  res.render(__dirname+"about", {aboutContent: aboutContent});
 });
 
 app.get("/contact", function(req, res){
-  res.render("contact", {contactContent: contactContent});
+  res.render(__dirname+"contact", {contactContent: contactContent});
 });
 
 app.get("/thankyou", function(req, res){
-  res.render("thankyou");
+  res.render(__dirname+"thankyou");
 });
 
 const port = process.env.PORT || 3000;
