@@ -142,6 +142,8 @@ router.post("/singup", async(req,res) => {
             }
         }).execPopulate();
         Posts = req.user.posts;
+        console.log("................................................");
+        console.log(Posts);
 
     }catch(e) {
         res.status(400).send(e.message)

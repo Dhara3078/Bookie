@@ -1,16 +1,51 @@
 # Bookie💜
 ### **Bookie is a web application for writing daily journals.✍🏻**
 ### [Website Link](https://bookie-daily-dairy.onrender.com)
----
-### As part of my back-end learning, I made this project. 😃 
-#### What I've learned:
-* NodeJS
-* MongoDB
-* Mongoose
-* Searching, Sorting & filtering 
-* User-authentication 
-* Cookies & JWT
-* EJS
+# Bookie: Your Daily Journal Companion
+
+## Project Overview:
+
+Bookie is a web application designed for daily journaling, providing users with a platform to write, manage, and reflect on their daily experiences. The project serves as a practical exercise to test and enhance backend knowledge, specifically focusing on user authentication and cookies.
+
+## Technologies Used:
+
+- HTML
+- CSS
+- EJS
+- NodeJS
+- MongoDB
+- BcryptJS
+- JWT
+
+## Project Structure:
+
+- **`public/`**: Contains static assets like stylesheets.
+- **`views/`**: Houses EJS files for dynamic rendering.
+- **`routes/`**: Manages routing for different operations.
+- **`controllers/`**: Handles business logic for CRUD operations.
+- **`models/`**: Defines MongoDB schemas, including user data.
+
+## Design Choices:
+
+- **User Authentication:** Implemented using JWT and BcryptJS for enhanced security.
+- **Stack:** Chose a stack of HTML, CSS, EJS, NodeJS, and MongoDB for a robust and scalable solution.
+- **Modular Structure:** Organized code into distinct folders for maintainability.
+
+## Key Files:
+
+- **`app.js`**: Entry point, initializes the server.
+- **`routes/` and `controllers/`**: Handle routing and business logic.
+- **`models/`**: Defines MongoDB schemas.
+- **`views/`**: Contains EJS files for rendering different pages.
+
+## Installation:
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Configure MongoDB connection in `app.js`.
+4. Run `npm start` to start the server.
+
+Feel free to explore, contribute, and share your thoughts on Bookie. Happy journaling!
 
 ### Glimpse of Bookie✨💜✨
 
