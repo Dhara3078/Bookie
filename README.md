@@ -17,10 +17,9 @@
 
 ## Project Structure:
 
-- **`public/`**: Contains static assets like stylesheets.
+- **`public/`**: Contains static assets like stylesheets and images.
 - **`views/`**: Houses EJS files for dynamic rendering.
-- **`routes/`**: Manages routing for different operations.
-- **`controllers/`**: Handles business logic for CRUD operations.
+- **`routes/`**: Manages routing and handles business logic for CRUD operations.
 - **`models/`**: Defines MongoDB schemas, including user data.
 
 ## Design Choices:
@@ -32,7 +31,7 @@
 ## Key Files:
 
 - **`app.js`**: Entry point, initializes the server.
-- **`routes/` and `controllers/`**: Handle routing and business logic.
+- **`routes/`**: Handle routing and business logic.
 - **`models/`**: Defines MongoDB schemas.
 - **`views/`**: Contains EJS files for rendering different pages.
 
