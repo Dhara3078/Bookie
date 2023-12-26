@@ -1,11 +1,9 @@
-# Bookie💜
-### **Bookie is a web application for writing daily journals.✍🏻**
+# Bookie💜: Your Daily Journal Companion
 ### [Website Link](https://bookie-daily-dairy.onrender.com)
-# Bookie: Your Daily Journal Companion
 
 ## Project Overview:
 
-Bookie is a web application designed for daily journaling, providing users with a platform to write, manage, and reflect on their daily experiences. The project serves as a practical exercise to test and enhance backend knowledge, specifically focusing on user authentication and cookies.
+**Bookie is a web application for writing daily journals.✍🏻**, providing users with a platform to write, manage, and reflect on their daily experiences. The project serves as a practical exercise to test and enhance backend knowledge, specifically focusing on user authentication and cookies.
 
 ## Technologies Used:
 
