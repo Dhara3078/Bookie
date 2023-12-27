@@ -1,5 +1,6 @@
 # Bookie💜: Your Daily Journal Companion
 ### [Website Link](https://bookie-elww.onrender.com)
+### [Video Demo](https://www.youtube.com/watch?v=cyk2ANhSCqA)
 
 ## Project Overview:
 
